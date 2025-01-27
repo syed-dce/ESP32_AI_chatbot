@@ -1,0 +1,90 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+env/
+*.venv/
+Pipfile.lock
+
+# Dependency files
+*.egg-info/
+*.dist-info/
+poetry.lock
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Log and debug files
+*.log
+logs/
+debug.log
+
+# Dataset files
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.parquet
+*.h5
+
+# Large data files
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+
+# ML/DL model files
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.tflite
+*.onnx
+*.pb
+
+# TensorBoard logs
+logs/
+runs/
+
+# Training outputs
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Conda environment
+conda-meta/
+*.conda
+*.yaml
+
+# Results and outputs
+results/
+output/
+plots/
+figures/
+
+# Secrets and credentials (add manually to prevent accidental commits)
+.env
+*.secret
+*.key
+
+#testing audio output files 
+*.mp3
+*.wav
+
+#database folder for now
+/database/

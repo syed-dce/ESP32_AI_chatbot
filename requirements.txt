@@ -1,0 +1,17 @@
+chromadb
+langchain
+python-dotenv
+fastapi[all]
+SpeechRecognition
+PyAudio
+Pydub
+pydantic
+httpx
+gtts
+pyttsx3
+redis
+langchain_google_genai
+numpy
+scipy
+requests
+sounddevice
